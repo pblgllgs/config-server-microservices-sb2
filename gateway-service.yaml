@@ -21,7 +21,7 @@ spring:
         registration:
           microservices-sb2-client:
             provider: keycloak
-            client-id: microservices-sb2-realm
+            client-id: microservices-sb2-client
             client-secret: ${CLIENT_SECRET}
             authorization-grant-type: authorization_code
             redirect-uri: ${BASE_URL:http://localhost:8080}/login/oauth2/code/microservices-sb2-client
